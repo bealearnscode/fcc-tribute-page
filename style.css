@@ -2,15 +2,27 @@
     font-family: 'Noto Serif', serif;
 }
 
+body {
+    background-color: #dcdcdc;
+}
+
 #main {
     width: 1200px;
     margin: 0 auto;
 }
 
-#img-div,
-#tribute-info {}
+a {
+    color: #536186;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 #title,
+#img-caption,
 #credits {
     text-align: center;
 }
@@ -19,4 +31,5 @@
     max-width: 100%;
     display: block;
     height: auto;
+    margin: 0 auto;
 }
